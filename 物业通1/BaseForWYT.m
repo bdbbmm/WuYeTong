@@ -17,7 +17,7 @@
     
     [super viewWillAppear:YES];
     self.navigationController.navigationBarHidden = YES;
-    [self preferredStatusBarStyle];//将状态栏，改变为白色
+//    [self preferredStatusBarStyle];//将状态栏，改变为白色
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -26,13 +26,13 @@
 
 #pragma mark - 自定义导航栏
 -(void)setNavgationBarItemName:(NSString *)setString{
-    _titleImgV= [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, APPWidth, 64)];
+    _titleImgV= [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, APPWidth, 44)];
     [self.view addSubview: _titleImgV];
     _titleImgV.backgroundColor = UIColorFromRGB(0x43d3a2);
     _titleImgV.image = [UIImage imageNamed:@"personal_info_share_back_ground"];
     
     _lab  = [[UILabel alloc]initWithFrame:CGRectMake(APPWidth/2-100, 28, 200, 29)];
-    _lab.textColor = APPColor;
+    _lab.textColor = APPGaryColor;
     _lab.text = setString;
     _lab.textAlignment = NSTextAlignmentCenter;
     _lab.font=[UIFont systemFontOfSize:18];

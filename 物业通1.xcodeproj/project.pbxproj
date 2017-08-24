@@ -125,7 +125,7 @@
 			children = (
 				0476A3671F4BF8E90079BADC /* PrefixHeader.pch */,
 				0476A3701F4BFC290079BADC /* BaseForWYT */,
-				0476A36E1F4BFB070079BADC /* SDK */,
+				0476A36E1F4BFB070079BADC /* frame设置 */,
 				0476A36F1F4BFB1E0079BADC /* Other */,
 				0476A3881F4C20A10079BADC /* UITabBarController */,
 				0476A3341F4BF8BB0079BADC /* Supporting Files */,
@@ -159,13 +159,13 @@
 			path = "物业通1UITests";
 			sourceTree = "<group>";
 		};
-		0476A36E1F4BFB070079BADC /* SDK */ = {
+		0476A36E1F4BFB070079BADC /* frame设置 */ = {
 			isa = PBXGroup;
 			children = (
 				04D8E2371F4D663500006DA5 /* UIView+Frame.h */,
 				04D8E2351F4D663000006DA5 /* UIView+Frame .m */,
 			);
-			name = SDK;
+			name = "frame设置";
 			sourceTree = "<group>";
 		};
 		0476A36F1F4BFB1E0079BADC /* Other */ = {
